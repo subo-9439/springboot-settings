@@ -14,7 +14,7 @@ buildscript {
 }
 
 allprojects {
-	group = "com.sp.example"
+	group = "com.sb.example"
 	version = "1.0.0"
 
 }

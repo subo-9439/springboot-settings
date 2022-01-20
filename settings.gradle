@@ -1,4 +1,6 @@
+
 rootProject.name = 'example'
+//프로젝트명
 
 ["comp", "test", "web", "server"].each {
 
@@ -23,7 +25,7 @@ rootProject.name = 'example'
         [
                 "src/main/java/com/sb/example",
                 "src/main/resources",
-                "src/test/java/com/sp/example",
+                "src/test/java/com/sb/example",
                 "src/test/resources"
         ].each {srcDir->
             def srcFolder = new File(subDir.absolutePath, srcDir)
